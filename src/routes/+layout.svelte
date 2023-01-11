@@ -29,7 +29,6 @@
 			<NavLi href="/about">About</NavLi>
 			<NavLi href="/services">Services</NavLi>
 			<NavLi href="/pricing">Pricing</NavLi>
-			<NavLi href="/contact">Contact</NavLi>
 		</NavUl>
 	</Navbar>
 </div>
@@ -45,7 +44,6 @@
 		>
 			<FooterLink href="/">About</FooterLink>
 			<FooterLink href="/">Privacy Policy</FooterLink>
-			<FooterLink href="/">Licensing</FooterLink>
 			<FooterLink href="/">Contact</FooterLink>
 		</FooterLinkGroup>
 	</Footer>
