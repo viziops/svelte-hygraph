@@ -12,11 +12,10 @@
 	import { DarkMode } from 'flowbite-svelte';
 
 	let btnClass =
-		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-xl p-2 shadow-md';
+		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full text-sm p-1 absolute right-0 top-2';
 </script>
 
-<DarkMode class="text-lg absolute top-2 right-4 shadow-md" />
-
+<DarkMode {btnClass} />
 <div class="container mx-auto px-4">
 	<Navbar let:hidden let:toggle>
 		<NavBrand href="/">
@@ -24,7 +23,7 @@
 				Feed the Search
 			</span>
 		</NavBrand>
-		<NavHamburger on:click={toggle} />
+		<NavHamburger on:click={toggle} class="absolute right-6" />
 		<NavUl {hidden}>
 			<NavLi href="/" active={true}>Home</NavLi>
 			<NavLi href="/about">About</NavLi>
